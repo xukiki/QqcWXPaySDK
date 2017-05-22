@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = "QqcWXPaySDK"
-s.version          = "1.7.1"   
+s.version          = "2.0.28"   
 s.summary          = "WeChat iOS SDK."
 s.homepage         = "https://github.com/xukiki/QqcWXPaySDK"
 s.license          = { :type => 'LGPL', :text => <<-LICENSE
@@ -23,7 +23,7 @@ s.requires_arc = true
 
 s.source_files = 'QqcWXPaySDK/*.{h,m}'
 s.public_header_files = 'QqcWXPaySDK/*.h'
-#SDK的版本是1.7.1
+#SDK的版本是2.0.28
 s.vendored_libraries  = 'QqcWXPaySDK/libWeChatPaySDK.a'
 
 s.frameworks = 'SystemConfiguration','CoreTelephony','Security','ImageIO','Foundation','UIKit'
