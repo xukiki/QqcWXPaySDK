@@ -23,7 +23,7 @@ s.requires_arc = true
 
 s.source_files = 'QqcWXPaySDK/*.{h,m}'
 s.public_header_files = 'QqcWXPaySDK/*.h'
-s.vendored_libraries  = 'QqcWXPaySDK/libWeChatSDKPay.a'
+s.vendored_libraries  = 'QqcWXPaySDK/libWeChatPaySDK.a'
 
 s.frameworks = 'SystemConfiguration','CoreTelephony','Security','ImageIO','Foundation','UIKit'
 s.library = 'z', 'sqlite3', 'c++'
